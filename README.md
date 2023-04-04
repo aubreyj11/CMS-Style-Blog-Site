@@ -5,6 +5,7 @@
 ## Technologies Used
 <ul>
     <li>Node.js</li>
+    <li>Express</li>
     <li>MySQL</li>
     <li>Sequelize</li>
     <li>Dotenv</li>
