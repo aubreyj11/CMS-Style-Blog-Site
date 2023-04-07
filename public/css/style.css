@@ -1,0 +1,254 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forms {
+    display: flex;
+}
+
+.login-form {
+    justify-content: center;
+}
+
+.new-acc-form {
+    justify-content: center;
+}
+
+.footer {
+    padding: 0px;
+    text-align: center;
+    margin: 350px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 30px;
+    color: rgb(50, 95, 50);
+}
+
+.nav-link:active {
+    color:rgb(67, 105, 67);
+}
+.nav-link:hover {
+    color: rgb(113, 147, 113);
+}
+
+.home-title {
+    text-align: center;
+    color: rgb(67, 105, 67);
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+/* .post-wrapper {
+    text-align: center;
+} */
+
+.main-wrapper {
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#login-form {
+    text-align: center;
+    justify-content: center;
+}
+
+.loginTitle {
+    color: rgb(113, 147, 113);
+    text-align: center;
+    font-size: 30px;
+}
+
+.label {
+    padding: 5px;
+}
+
+.loginBtn {
+    padding: 5px;
+    margin: 20px;
+    width: 150px;
+    background-color: rgb(189, 223, 180);
+    font-size: 15px;
+}
+
+.loginBtn:hover{
+    background-color: rgb(144, 168, 138);
+    cursor: pointer;
+}
+
+#login-pw {
+    padding: 10px;
+    margin: 10px;
+}
+
+#login-username {
+    padding: 10px;
+    margin: 10px;
+}
+
+#create-pw {
+    padding: 10px;
+    margin: 10px;
+}
+
+#create-username {
+    padding: 10px;
+    margin: 10px;
+}
+
+.dashboardTitle {
+    margin: 15px;
+    padding: 20px;
+}
+
+.dash-li {
+    text-decoration: none;
+}
+
+.post-list{
+    text-align: center;
+}
+
+.post-title{
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+.p-c-li {
+    list-style: none;
+}
+
+.dash-li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.dashboard-posts {
+    text-decoration: none;
+    padding: 20px;
+}
+
+#add-post-btn {
+    padding: 10px;
+    background-color:rgb(189, 223, 180);
+    text-decoration: none;
+    border-color:rgb(189, 223, 180);
+    border-radius: 5px;
+    width: 150px;
+    color:rgb(50, 95, 50)
+};
+
+#add-post-btn:hover {
+    background-color: rgb(144, 168, 138);
+    cursor: pointer;
+}
+
+
+#addHref {
+    text-decoration: none;
+}
+
+#postHref {
+    text-decoration: none;
+}
+
+.createTitle {
+    color: rgb(144, 168, 138);
+}
+
+.cpTitle {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.db-post-title{
+    color:rgb(50, 95, 50);
+}
+.db-post-title:active{
+    color:rgb(105, 143, 105);
+}
+
+.saveBtn {
+    padding: 10px;
+    background-color:rgb(189, 223, 180);
+    text-decoration: none;
+    border-color:rgb(189, 223, 180);
+    border-radius: 5px;
+    width: 150px;
+    color:rgb(50, 95, 50);
+    margin: 25px;
+}
+
+.saveBtn:hover {
+    background-color: rgb(144, 168, 138);
+    cursor: pointer;
+}
+
+.cpText{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.post-btn {
+    padding: 8px;
+    background-color:rgb(189, 223, 180);
+    border-radius: 5px;
+    margin: 10px;
+    border-color:rgb(189, 223, 180);
+    width: 150px;
+}
+
+.post-btn:hover {
+    background-color: rgb(155, 180, 148);
+    cursor: pointer;
+}
+
+.dashboardTitle {
+    color: rgb(144, 168, 138);
+}
+
+.editTitle {
+    color: rgb(144, 168, 138);
+    margin: 20px;
+}
+
+#edit-post-title{
+    padding: 10px;
+    text-align: center;
+}
+
+.editInfo{
+    color:rgb(67, 105, 67);
+}
+
+.edit-post-title{
+    padding: 10px;
+    text-align: center;
+}
+
+#post-text {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+#postLabel {
+    text-align: center;
+}
+
+
+

@@ -17,6 +17,7 @@ async function loginHandler(event) {
         if(response.ok) {
             document.location.replace('/dashboard');
         } else {
+            console.log(await response.json());
             alert(response.statusText);
         }
     }

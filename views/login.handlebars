@@ -1,31 +1,33 @@
+<div class="forms">
 <form class="login-form">
-    <h2>Login</h2>
+    <h2 class="loginTitle">Login</h2>
     <div> 
-        <label for="login-username"> Username: </label>
+        <label class="label" for="login-username"> Username: </label>
         <input type="text" id="login-username">
     </div>
     <div>
-        <label for="login-pw"> Password: </label>
+        <label class="label" for="login-pw"> Password: </label>
         <input type="password" id="login-pw">
     </div>
     <div>
-        <button type="submit">Login!</button>
+        <button id="loginBtn" class="loginBtn" type="submit">Login!</button>
     </div>
 </form>
 
 <form class="new-acc-form">
-    <h2>Create Account</h2>
+    <h2 class="loginTitle">Create Account</h2>
     <div>
-        <label for="create-username"> New Username: </label>
+        <label class="label" for="create-username"> New Username: </label>
         <input type="text" id="create-username">
     </div>
     <div>
-        <label for="create-pw"> New Password: </label>
+        <label class="label" for="create-pw"> New Password: </label>
         <input type="password" id="create-pw">
     </div>
     <div>
-        <button type="submit">Create Account!</button>
+        <button class="loginBtn" type="submit">Create Account!</button>
     </div>
 </form>
+</div>
 
-<script src="../public/js/login.js"></script>
+<script src="/js/login.js"></script>

@@ -1,9 +1,9 @@
 {{#if posts.length}}
 <section>
-    <h2>Your Blog Posts</h2>
+    <h2 class="dashboardTitle">Your Blog Posts</h2>
     <ol class="dashboard-posts">
         {{#each posts as |post|}}
-        <li>
+        <li class="dash-li">
             {{> dashboardInfo post}}
         </li>
         {{/each}}
@@ -15,4 +15,4 @@
 </section>
 {{/if}}
 
-<button type="submit"><a href="/dashboard/new">Add a new post</a></button>
+<button id="add-post-btn" type="submit"><a id="addHref" href="/dashboard/new">Add a new post</a></button>

@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>CMS Style Tech Blog</title>
 </head>
 <body>
     <div>
         <header>
             <div>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/dashboard">Dashboard</a>
+                <nav class="nav">
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/dashboard">Dashboard</a>
                     {{#if loggedIn}}
-                    <a href="/" id="logout">Logout</a>
+                    <a class="nav-link" href="/" id="logout">Logout</a>
                     {{else}}
-                    <a href="/login">Login</a>
+                    <a class="nav-link" href="/login">Login</a>
                     {{/if}}
                 </nav>
             </div>
-            <h1>CMS Tech Blog</h1>
+            <h1 class="home-title">Tech Blog</h1>
         </header>
-        <main>
+        <main class="main-wrapper">
             {{{ body }}}
         </main>
-        <footer>
+        <footer class="footer">
             Thanks for stopping by! 
         </footer>
     </div>
     {{#if loggedIn}}
-    <script src="/public/js/logout.js"></script>
+    <script src="/js/logout.js"></script>
     {{/if}}
 </body>
 </html>

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User, Post, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // find all users
@@ -20,10 +20,10 @@ router.get('/:id', (req,res) => {
         where: {
             id: req.params.id
         },
-        incldude: [
+        include: [
             {
-                method: 'POST',
-                attributes: ['id', 'title', 'post_text', 'created_at']
+                model: Post,
+                attributes: ['id', 'title', 'postText', 'created_at']
             },
             {
                 model: Comment,
@@ -64,6 +64,7 @@ router.post('/', (req, res) => {
 
 //user login
 router.post('/login', (req, res) => {
+    console.log(req.body.username);
     User.findOne({
         where: {
             username: req.body.username
@@ -85,6 +86,9 @@ router.post('/login', (req, res) => {
             req.session.loggedIn = true;
             res.json({user: dbUserInfo, message: 'You are logged in!'});
         });
+    })
+    .catch (err => {
+        console.log(err);
     });
 });
 
