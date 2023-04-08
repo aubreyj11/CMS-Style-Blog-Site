@@ -27,14 +27,15 @@ This is a full stack application that allows users to create accounts, sign in, 
 No installation required. Just visit the deployed website link:
 <br>
 
-<link>
+[Tech Blog Link](https://arcane-inlet-49732.herokuapp.com/)
+
 
 <br>
 
 ## Usage
-Log in to your account or create a new one if you are a new user. You will be taken to the dashboard with posts from others and you will be able to comment on their posts as well as create new posts of your own!
+Log in to your account or, if you are a new user, create a new account and then log in. You will be taken to the homepage with posts from other users and you will be able to comment on their posts as well as create new posts of your own! To view all of your posts, go to the dashboard link at the top. Each session will be automatically signed out after about five minutes.
 
 <br><br><br>
-![alt text](assets/images/readMePhoto.png)
+![alt text](public/images/readMePhoto.png)
 
 <br>
