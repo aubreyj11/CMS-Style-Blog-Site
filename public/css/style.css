@@ -123,7 +123,7 @@
 
 .post-title{
     text-decoration: none;
-    padding: 30px;
+    padding: 10px;
     color:rgb(113, 147, 113);
     font-size: 20px;
     
@@ -329,4 +329,16 @@
     padding: 20px;
 }
 
+.post-info{ 
+    color:rgb(75, 80, 71);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.post-wrapper{
+    border: 1px solid rgb(89, 103, 89);
+    border-radius: 5px;
+    margin: 30px;
+    padding: 50px;
+    padding-top: 1px;
+}
 
