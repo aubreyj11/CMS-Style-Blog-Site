@@ -118,12 +118,29 @@
 
 .post-list{
     text-align: center;
+    padding: 20px;
 }
 
 .post-title{
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
+    color:rgb(113, 147, 113);
+    font-size: 20px;
     
+}
+
+.post-title:hover{
+    color:rgb(67, 105, 67);
+}
+
+.no-posts{
+    color:rgb(144, 168, 138);
+    padding: 40px;
+    margin: 15px;
+}
+
+.post-data {
+    font-size: 12px;
 }
 
 .p-c-li {
@@ -162,6 +179,14 @@
 
 #postHref {
     text-decoration: none;
+    color:rgb(50, 95, 50);
+    border: 1px solid rgb(75, 80, 71);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#postHref:hover{
+    color:rgb(155, 180, 148);
 }
 
 .createTitle {
@@ -195,6 +220,33 @@
 .saveBtn:hover {
     background-color: rgb(144, 168, 138);
     cursor: pointer;
+}
+
+#comment-btn {
+    padding: 10px;
+    background-color:rgb(189, 223, 180);
+    text-decoration: none;
+    border-color:rgb(189, 223, 180);
+    border-radius: 5px;
+    width: 150px;
+    color:rgb(50, 95, 50);
+    margin: 25px;
+}
+#comment-btn:hover {
+    background-color: rgb(144, 168, 138);
+    cursor: pointer;
+}
+
+#user-comment {
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.comment-data{
+    color:rgb(75, 80, 71);
+    font-size: 12px;
+    padding: 10px;
 }
 
 .cpText{
@@ -250,5 +302,26 @@
     text-align: center;
 }
 
+.post-data {
+    color:rgb(75, 80, 71);
+}
+
+.post-header {
+    padding: 10px;
+    margin: 10px;
+}
+
+.db-subhead {
+    color:rgb(67, 105, 67);
+}
+
+.comment-text{
+    color:rgb(86, 95, 80);
+    padding: 10px;
+}
+
+.comment-info{
+    padding: 20px;
+}
 
 

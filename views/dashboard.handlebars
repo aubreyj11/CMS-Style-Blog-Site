@@ -1,6 +1,7 @@
 {{#if posts.length}}
 <section>
     <h2 class="dashboardTitle">Your Blog Posts</h2>
+    <h4 class="db-subhead">(Click on a post to view it in detail!)</h4>
     <ol class="dashboard-posts">
         {{#each posts as |post|}}
         <li class="dash-li">
@@ -11,7 +12,7 @@
 </section>
 {{else}}
 <section>
-    <h3>You dont have any posts yet</h3>
+    <h3 class="no-posts">You dont have any posts yet</h3>
 </section>
 {{/if}}
 
